@@ -1,12 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
 
-function App() {
+const App = () => {
   return (
-    <div className="Container">
-      <h1>Hello From React</h1>
+    <div className='container'>
+      <Header title="naslov"/>
     </div>
-  );
+  )
 }
 
 export default App;
